@@ -1,0 +1,8 @@
+# Excluir TODO por defecto
+*
+
+# Permitir solo estos archivos específicos
+!web_output/
+!web_output/dashboard.html
+!vercel.json
+!.gitignore
