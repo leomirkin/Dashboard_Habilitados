@@ -4,5 +4,6 @@
 # Permitir solo estos archivos específicos
 !web_output/
 !web_output/dashboard.html
+!logosecco.svg
 !vercel.json
 !.gitignore
