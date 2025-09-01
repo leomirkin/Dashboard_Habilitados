@@ -2,11 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "web_output/dashboard.html",
+      "src": "web_output/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
+    {
+      "src": "/logosecco.svg",
+      "dest": "/web_output/logosecco.svg"
+    },
     {
       "src": "/",
       "dest": "/web_output/dashboard.html"
